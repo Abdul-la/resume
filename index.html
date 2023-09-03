@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #8C8C8C;
+        }
+        #navbar {
+            height: 70px;
+            width: 100%;
+        }
+        #unnav {
+            float: right;
+        }
+        #unnav li {
+            text-decoration: none;
+            margin-top: 30px;
+            margin-left: 10px;
+            list-style: none;
+            float: left;
+            position: relative;
+        }
+        #padding {
+            float: left;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        #blue {
+            float: left;
+            margin-top: 30px;
+        }
+        #unnav li a {
+            text-decoration: none;
+        
+            padding: 40px 20px;
+            font-size: 20px;
+            transition: 1s;
+        }
+        #hover:hover{
+            color: black;
+        }
+        #unnav li.hover:hover ul {
+            display: block;
+           
+           
+        }
+        #unnav li ul {
+            position: absolute;
+            background-color: white;
+            display: none;
+    
+        }
+        #unnav li ul li {
+            clear: both;
+        }
+        #image{
+            height: 500px;
+            width: 350px;
+            margin-left: 599px;
+           position: absolute;
+           border-radius: 25px;
+           box-shadow: 5px 5px ;
+        }
+        #siximages img{
+            height: 200px;
+            width: 300px;
+            margin: 30px 0 0 25px;
+            border-radius: 25px;
+        }
+        #siximages img:hover{
+            filter: blur(5px);
+        -webkit-filter: blur(5px);
+        }
+
+        #siximages{
+            height: 470px;
+            width: 100%;   
+        }
+        #populardestination img{
+            height: 350px;
+            width: 250px;
+            margin: 20px 0 0 60px;
+            border-radius: 25px;
+            
+        }
+        #populardestination img:hover{
+            filter: blur(5px);
+        -webkit-filter: blur(5px);
+        }
+       #icon1{
+            width:  33%;
+            height: 200px;
+            float: left;
+        }
+        #icon2{
+            width:  33%;
+            height: 200px;
+            float: left;
+            
+        }
+    
+        #icons img{
+            margin: 50px 0 0 0;
+            height: 100px;
+            width: 100px;
+        }
+        #block1{
+            width: 45%;
+            height: 250px;
+            border-radius: 25px;
+            float: left;
+            margin: 0px 0 0 33px;
+            
+        }
+        #block2{
+            width: 45%;
+            height: 250px;
+            background-color: #d8cece;
+            margin: 0px 0 0 520px;
+            border-radius: 25px;
+            box-shadow: 2px 2px 2px 2px;
+        }
+      
+        
+    </style>
+</head>
+<body style="background-color: #F8F8F8;">
+    <div id="navbar">
+        <h1 id="padding">Travel</h1><h1 style="color: #5C98F2; padding-top: 20px; padding-right: 30px; float: left;">Tour</h1>
+        <ul id="unnav">
+            <li><a href="">Home</a></li>
+            <li class="hover"><a>Pages</a>
+                <ul>
+                    <li> <a href="#">DESTINATIONS</a></li>
+                    <li> <a href="#">ABOUT US</a></li>
+                    <li> <a href="#">OUR SERVICE</a></li>
+                    <li> <a href="#">CONTACT</a></li>
+                    <li> <a href="#">GALLERY</a></li>
+                    <li> <a href="#">Team</a></li>
+                    <li> <a href="#">PRICE TABLE</a></li>
+                    <li> <a href="#">MAINTENANCE</a></li>
+                </ul>
+            </li>
+            <li><a href="">Tour list</a></li>
+            <li> <a href="">Room List</a></li>
+            <li><a href="">Tour search</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+    </div>
+    <div id="main" style="height: 550px;">
+        <img src="hero-right.jpg" id="image">
+        <button style="border-radius: 10px; color: #41DDB8; background-color: white;border: white; width: 120px; clear: both; height: 20px;box-shadow: 2px 2px #888888; margin: 100px 0 0 30px; ">Book With Us</button><br>
+        <h1 id="newh1" style="font-size: 70px; padding: 20px 0 0 30px; color: black;"> Find Next Place <br> To visit</h1>
+        
+        <p style="padding: 10px 0 0 30px; font-size: large; ">Discover amzaing places at exclusive deals. <br>
+            Eat, Shop, Visit interesting places around the world.</p>
+    </div>
+    <div id="undermain">
+        <h1 style="text-align: center;width: 100%; color: black; margin-top: 30px;">Top Destinations</h1>
+        <p  style="text-align: center;width: 100%; ">Explore our top destinations voted by more than 100,000+ <br> customers around the world.</p>
+        <div id="siximages">
+            <img src="photo-1612441804231-77a36b284856.jpeg" alt="">
+            <img src="cat-eu-1.jpg" alt="">
+            <img src="cat-scan.jpg" alt="">
+            <img src="cat-asia.jpg" alt="">
+            <img src="cat-soft-africa.jpg" alt="">
+            <img src="cat-america.jpg" alt="">
+        </div>
+    </div>
+    <div id="populardestination">
+        <h1 style="color: black; text-align: center; margin: 70px 0 0 0;">Popular Tours</h1>
+        <img src="tourv4.jpg" alt="">
+        <img src="sorasak-9DgwO_ihqL0-unsplash-600x800.jpg" alt="">
+        <img src="tourv2.jpg" alt="">
+    </div>
+    <div id="twoblocks" style="height: 300px; margin-top: 50px;">
+        <div id="block1"><img src="download.jpeg" style="height: 250px;width: 100%; 
+            border-radius: 25px; filter: opacity(.7);"></div>
+        <div id="block2"><h1 style="color: black;padding: 30px 0 0 30px;">Don’t miss a thing
+            </h1><p style=" margin: 30px 0 0 30px;">Get update to special deals and exclusive <br> offers.<br><br>
+                Sign up to our newsletter!</p></div>
+         </div>
+        <div id="footer" style="height: 170px; width: 100%; background-color: #1A1A1A; padding-top: 50px; float: left;">
+            <div id="foo1" style=" width: 25%;float: left;"><img src="footer-logo.png" style="height: 25px;  width: 150px;"></div>
+            <div id="foo2" style="  width: 25%; float: left;"><h2 style="color: white;">Contact</h2><br><br><p> T: 1-634-567-34 <br><br><br> E: contact@traveltourtheme.co</p></div>
+            <div id="foo3" style="  width: 25%; float: left;"><h2 style="color: white;">Useful links</h2><br><a href="#">Travel Blog & Tips </a>
+             <br><br>   <a href=""> Working With Us </a>
+                <br><br>    <a href="">Be Our Partner</a></div>
+            <div id="foo4" style=" width: 25%; float: left;"><h2 style="color: white;">Pay Safely With Us</h2><br><br><p style="color: white;">The payment is encrypted and transmitted securely with an SSL protocol.</p>
+            </div>
+
+        </div>
+</body>
+</html>
